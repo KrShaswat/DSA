@@ -1,0 +1,11 @@
+{
+  "name": "big-o",
+  "version": "1.0.0",
+  "description": "big-O practice",
+  "main": "finding_nemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kr_shaswat",
+  "license": "ISC"
+}
