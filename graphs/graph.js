@@ -14,7 +14,7 @@ class Graph {
    // just adding the index
    addVertex (node) {
        // add a index with no connections (so a empty list)
-       this.adjacentList.push({node: []})
+       this.adjacentList[node] = [];
        // increment node count
        this.numberOfNodes++;
        return this
@@ -37,13 +37,13 @@ class Graph {
             for (let vertex of nodeConnections) {
                 connections += vertex+" "
             }
-            console.log(node + "-->" + connections);
+            console.log(nodes + "-->" + connections);
         }
    }
 }
 
 
-var graph = new Graph();
+var myGraph = new Graph();
 
 console.log(myGraph.addVertex('0'));
 console.log(myGraph.addVertex('1'));
